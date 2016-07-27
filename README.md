@@ -1,4 +1,5 @@
-# Intercept
+# Intercept [![Latest Stable Version](https://poser.pugx.org/midnite81/intercept/version)](https://packagist.org/packages/midnite81/intercept) [![Total Downloads](https://poser.pugx.org/midnite81/intercept/downloads)](https://packagist.org/packages/midnite81/intercept) [![Latest Unstable Version](https://poser.pugx.org/midnite81/auditor/v/unstable)](https://packagist.org/packages/midnite81/auditor) [![License](https://poser.pugx.org/midnite81/auditor/license.svg)](https://packagist.org/packages/midnite/auditor)
+
 Some random pieces of middleware
 
 #Installation
