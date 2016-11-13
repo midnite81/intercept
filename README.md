@@ -19,7 +19,7 @@ in `app/config/app.php`.
 
     'providers' => [
 
-      Midnite81\Intercept\MessengingServiceProvider::class
+      Midnite81\Intercept\InterceptServiceProvider::class
               
     ];
 
