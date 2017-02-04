@@ -20,6 +20,8 @@ class InterceptServiceProvider extends ServiceProvider
             __DIR__ . '/../config/intercept.php' => config_path('intercept.php')
         ]);
         $this->mergeConfigFrom(__DIR__ . '/../config/intercept.php', 'intercept');
+
+
     }
 
     /**
@@ -29,6 +31,8 @@ class InterceptServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        foreach (glob(__DIR__ . '/Helpers/*.php') as $filename) {
+            require_once($filename);
+        }
     }
 }
