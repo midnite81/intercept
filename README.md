@@ -8,7 +8,7 @@ This package requires PHP 5.6+, and includes a Laravel 5 Service Provider.
 
 To install through composer include the package in your `composer.json`.
 
-    "midnite81/intercept": "0.1.*"
+    "midnite81/intercept": "0.0.*"
 
 Run `composer install` or `composer update` to download the dependencies or you can run `composer require midnite81/intercept`.
 
@@ -19,7 +19,7 @@ in `app/config/app.php`.
 
     'providers' => [
 
-      Midnite81\Intercept\MessengingServiceProvider::class
+      Midnite81\Intercept\InterceptServiceProvider::class
               
     ];
 
