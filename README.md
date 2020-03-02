@@ -2,7 +2,7 @@
 
 Some random pieces of middleware
 
-#Installation
+# Installation
 
 This package requires PHP 5.6+, and includes a Laravel 5 Service Provider.
 
@@ -12,7 +12,7 @@ To install through composer include the package in your `composer.json`.
 
 Run `composer install` or `composer update` to download the dependencies or you can run `composer require midnite81/intercept`.
 
-##Laravel 5 Integration
+## Laravel 5 Integration
 
 To use the package with Laravel 5 firstly add the Messaging service provider to the list of service providers 
 in `app/config/app.php`.
@@ -38,7 +38,7 @@ Add the following to `app\Http\Kernel.php`
             ...
             ];
     
-#Configuration File
+# Configuration File
 
 Once you have published the config files, you will find an `Intercept.php` file in the `config` folder. You should
 look through these settings and update these where necessary. 
