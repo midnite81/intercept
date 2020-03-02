@@ -16,11 +16,10 @@ class NoCache
      */
     public function handle($request, Closure $next)
     {
-
-        $response = $next($request);
-
-        return $response->header('Cache-Control','nocache, no-store, max-age=0, must-revalidate')
-                        ->header('Pragma','no-cache')
-                        ->header('Expires','Fri, 01 Jan 1990 00:00:00 GMT');
+         return $next($request)->header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')
+                               ->header('Cache-Control', 'post-check=0, pre-check=0', false)
+                               ->header('Pragma', 'no-cache');
     }
+
+
 }
